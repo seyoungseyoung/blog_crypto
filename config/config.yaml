@@ -1,0 +1,38 @@
+data_collection:
+  cryptocurrencies:
+    - bitcoin
+    - ethereum
+    - binancecoin
+    - ripple
+    - cardano
+    - solana
+    - polkadot
+    - dogecoin
+    - avalanche
+    - polygon
+    - chainlink
+    - litecoin
+    - uniswap
+    - aave
+    - cosmos
+    - algorand
+    - filecoin
+    - tezos
+    - monero
+    - dash
+  
+  market_data:
+    categories:
+      - top_gainers
+      - top_losers
+      - highest_volume
+
+blog_settings:
+  platform: naver
+  category_id: 19
+  tags_limit: 30
+  auto_publish: true
+
+logging:
+  level: INFO
+  file: logs/app.log 
